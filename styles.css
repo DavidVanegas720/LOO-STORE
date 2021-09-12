@@ -13,11 +13,26 @@
       /* -----styles for cards------- */
 
 .cards-container {
+    border: 2px solid black;
+    margin: 0.4%;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
+.cards-container__demo {
+    border: 1px solid black;
+    margin: 0.1%;
+    align-content:center;
+}
+
+.cards-container__demo a img {
+    width: 30%;
+    padding: 15px 20px ;
+    padding-left: 50px;
+    
+}
+
 .cards-container a img {
-    width: 60%;
+    margin-top: 20px;
 }
