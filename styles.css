@@ -1,15 +1,36 @@
 .header-container__menu-bar {
-    border: 1px solid black;
+    padding: 5px;
+    /* border: 1px solid black; */
     background-color: #eee;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Glory', sans-serif;
+    text-transform: uppercase;
 }
 
-.menu-bar__buttons{
+.header-container .menu-bar__buttons a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.header-container .menu-bar__buttons a:hover{
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+    transition: 300ms;
+    
+}
+/* .header-container .menu-bar__buttons{
+    margin-right: 20px;
     padding-right: 50px;
     border: 1px solid red;
-}
+} */
+
       /* -----styles for cards------- */
 
 .cards-container {
@@ -27,7 +48,7 @@
 }
 
 .cards-container__demo a img {
-    width: 30%;
+    width: 32%;
     padding: 15px 20px ;
     padding-left: 50px;
     
@@ -36,6 +57,20 @@
 .cards-container a img {
     margin-top: 20px;
 }
+
+.cards-container__demo__image{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.cards-container__demo__image__texto-encima{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 /* ---------styles footer------- */
 
